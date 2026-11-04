@@ -2,29 +2,41 @@
     box-sizing: border-box;
 }
 body{
-    max-width: 100vh;
+    max-width: 100%;
 }
-h5{
-    color: blue;
+h4{
+    color: dodgerblue;
+    text-align: center;
+}
+.logo{
+    width: 50px;
 }
 span{
     color: aliceblue;
-    background-color: blue;
+    background-color:dodgerblue;
+    text-align: center;
 }
-button{
+.buttons{
+    padding: 10px;
+    gap:10px ;
+    display: flex;
+    flex-direction: column;
+  
+}
+.qq{
     border-radius: 24px;
     border-color: black;
     border: 5px;
     height: 50px;
-    width: 200px;
-    /* display: block;
-
-    margin: auto; */
+    width: 400px;
 }
 a{
     text-decoration: none;
 }
-
+.sample{
+    width: 40%;
+    /* margin-left: 30px; */
+}
 .p1
 {
 /* text-align: center; */
@@ -34,19 +46,24 @@ font-size: 13px;
 {
 text-align: center;
 } */
-img, div{
-    width: 50%;
+img{
+    width: 500px;
+
 }
-.mntgxo{
+.second{
     display: flex;
+    width: 100%;
+    margin-top: 60px;
+    margin-left: 100px;
 }
-.mntg{
+.main{
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
-.mn{
+.main1{
     display: flex;
-    gap: 10px;
+    gap: 20px;
     text-decoration: none;
 }
 /* ul{
