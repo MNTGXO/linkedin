@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    max-width: 100vh;
+}
+h5{
+    color: blue;
+}
+span{
+    color: aliceblue;
+    background-color: blue;
+}
+button{
+    border-radius: 24px;
+    border-color: black;
+    border: 5px;
+    height: 50px;
+    width: 200px;
+    /* display: block;
+
+    margin: auto; */
+}
+a{
+    text-decoration: none;
+}
+
+.p1
+{
+/* text-align: center; */
+font-size: 13px;
+}
+/* p
+{
+text-align: center;
+} */
+img, div{
+    width: 50%;
+}
+.mntgxo{
+    display: flex;
+}
+.mntg{
+    display: flex;
+    justify-content: space-between;
+}
+.mn{
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+}
+/* ul{
+    list-style: none;
+    gap: 20px;
+} */
