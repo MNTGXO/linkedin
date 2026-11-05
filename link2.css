@@ -60,6 +60,7 @@ img{
     width: 100%;
     display: flex;
     justify-content: space-around;
+    margin-left: 20px;
 }
 .main1{
     display: flex;
