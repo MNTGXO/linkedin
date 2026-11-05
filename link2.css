@@ -71,3 +71,25 @@ img{
     list-style: none;
     gap: 20px;
 } */
+/* @media() */
+@media (max-width: 480px) {
+    body {
+        background-color: red;
+    }
+
+.second{
+    display: block;
+    width: 100%;
+    margin-top: 60px;
+    margin-left: 100px;
+}
+
+
+
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    body {
+        background-color: blue;
+    }
+}
