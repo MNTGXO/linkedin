@@ -75,6 +75,7 @@ img{
 @media (max-width: 480px) {
     body {
         background-color: red;
+        text-align: center;
     }
 
 .second{
@@ -92,5 +93,15 @@ img{
 @media (min-width: 481px) and (max-width: 768px) {
     body {
         background-color: blue;
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+    }
+    .second{
+        display: block;
+        width: 100%;
+        margin-top: 60px;
+        margin-left: 100px;
     }
 }
