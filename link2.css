@@ -95,6 +95,8 @@ p{
 @media (min-width: 481px) and (max-width: 768px) {
     body {
         text-align: center;
+        width: 100%;
+        overflow: hidden;
     }
     h1{
         text-align: center;
@@ -102,9 +104,27 @@ p{
     .second{
         display: block;
         width: 100%;
-        margin-top: 60px;
-        margin-left: 100px;
+        margin-top: 10%;
+        margin-left: 10%;
     }
+    .main{
+        width: 100%;
+        display:block;
+        gap: 5px;
+
+    }
+    .main1{
+        width: fit-content;
+
+    }
+    .mimg{
+        width: 50%;
+        align-items: center;
+    }
+    p{
+        text-align: center;
+    }
+    
 }
 .join-link{
     border-radius: 16px;
@@ -125,18 +145,4 @@ p{
     height: 30px;
     color: aliceblue;
     text-align: center;
-}
-.fp
-{
-    font-size: 30px;
-}
-footer{
-    background-color: bisque;
-}
-.fp2{
-    font-size: 20px;
-}
-.fdiv1
-{
-    margin-right: 80%;
 }
