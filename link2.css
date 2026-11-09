@@ -1,72 +1,90 @@
 * {
     box-sizing: border-box;
 }
-body{
+
+body {
     max-width: 100%;
+    max-width: 100vh;
 }
-h4{
+
+h4 {
     color: dodgerblue;
     text-align: center;
 }
-.logo{
+
+.logo {
     width: 50px;
 }
-span{
+
+span {
     color: aliceblue;
-    background-color:dodgerblue;
+    background-color: dodgerblue;
     text-align: center;
 }
-.buttons{
+
+.buttons {
     padding: 10px;
-    gap:10px ;
+    gap: 10px;
     display: flex;
     flex-direction: column;
-  
+
 }
-.qq{
+
+.qq {
     border-radius: 24px;
     border-color: black;
     border: 5px;
     height: 50px;
     width: 400px;
 }
-a{
+
+a {
     text-decoration: none;
 }
-.sample{
+
+.sample {
+    margin-top: 50px;
     width: 40%;
     /* margin-left: 30px; */
 }
-.p1
-{
-/* text-align: center; */
-font-size: 13px;
+
+.p1 {
+    /* text-align: center; */
+    font-size: 13px;
 }
+
 /* p
 {
 text-align: center;
 } */
-img{
+img {
     width: 500px;
 
 }
-.second{
+
+.second {
     display: flex;
     width: 100%;
     margin-top: 60px;
     margin-left: 100px;
 }
-.main{
+
+.main {
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
     display: flex;
     justify-content: space-around;
     margin-left: 20px;
 }
-.main1{
+
+.main1 {
     display: flex;
     gap: 20px;
     text-decoration: none;
 }
+
 /* ul{
     list-style: none;
     gap: 20px;
@@ -76,17 +94,23 @@ img{
     body {
         text-align: center;
     }
+    h1{
+        white-space: nowrap;
+    }
+    .second {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 60px;
+        margin-left: 30%;
+    }
 
-.second{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin-top: 60px;
-    margin-left: 30%;
-}
-p{
-    margin-left: 1px;
-}
+    p {
+        /* margin-left: 1px; */
+        text-align: center;
+        /* white-space: nowrap; */
+
+    }
 
 
 }
@@ -96,37 +120,45 @@ p{
     body {
         text-align: center;
         width: 100%;
-        overflow: hidden;
+        overflow-x: clip;
     }
-    h1{
+
+    h1 {
         text-align: center;
     }
-    .second{
+
+    .second {
         display: block;
         width: 100%;
         margin-top: 10%;
         margin-left: 10%;
     }
-    .main{
+
+    .main {
         width: 100%;
-        display:block;
+        display: block;
         gap: 5px;
 
     }
-    .main1{
+
+    .main1 {
         width: fit-content;
 
     }
-    .mimg{
+
+    .mimg {
         width: 50%;
         align-items: center;
+        height: auto;
     }
-    p{
+
+    p {
         text-align: center;
     }
-    
+
 }
-.join-link{
+
+.join-link {
     border-radius: 16px;
     border: 15px;
     border-color: blue;
@@ -136,8 +168,8 @@ p{
     color: blue;
     text-align: center;
 }
-.join-link2
-{
+
+.join-link2 {
     border-radius: 16px;
     border: 5px;
     background-color: blue;
