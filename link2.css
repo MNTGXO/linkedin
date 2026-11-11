@@ -8,19 +8,24 @@ body {
 }
 
 h4 {
-    color: dodgerblue;
+    color: #0a66c2;
     text-align: center;
+    margin-top: 5px;
 }
 
 .logo {
     width: 50px;
+    display: inline-flex;
 }
 
 .span1 {
     color: aliceblue;
-    background-color: dodgerblue;
+    background-color: #0a66c2;
     text-align: center;
     display: inline;
+    height: 20px;
+    margin-top: 5px;
+    border-radius: 4px;
 }
 
 .buttons {
@@ -85,27 +90,57 @@ text-align: center;
     display: flex;
     gap: 20px;
     text-decoration: none;
+    margin-top: 10px;
 }
 .join-link {
-    border-radius: 16px;
+    /* border-radius: 16px;
     border: 15px;
-    border-color: #0a66c2;
+    border-color: #0a66c2; */
     background-color: aliceblue;
-    width: 100px;
+    /* width: 100px;
     height: 30px;
     color: #0a66c2;
     text-align: center;
-    border-style: solid;
+    border-style: solid; */
+    justify-content: center;
+    display: inline-flex;
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+    border: 1px solid #0a66c2;
+    white-space: nowrap;
+    font-weight: 500;
+    padding: 8px 16px;
+    border-radius: 35px;
+    align-items: center;
+    font-size: 10px;
+    gap: 0px;
+    color:#0a66c2;
 }
 
 .join-link2 {
-    border-radius: 16px;
+    /* border-radius: 16px;
     border: 5px;
     background-color: #0a66c2;
     width: 100px;
-    height: 30px;
+    height: 30px; */
     color: aliceblue;
     text-align: center;
+    justify-content: center;
+    display: inline-flex;
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+    background-color: #0a66c2;
+    text-align: center;
+    font-weight: 500;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 35px;
+    align-items: center;
+    font-size: 10px;
+    white-space: nowrap;
+    gap: 0px;
 }
 
 /* ul{
