@@ -128,11 +128,15 @@ text-align: center;
     }
     .span1{
         display: block;
-        width: 40px;
-        margin-top: 20px;
-        height: 40px;
-        font-size: 30px;
-        border: 0px;
+        width: 30px;
+        margin-top: 30px;
+        height: 30px;
+        font-size: 25px;
+        border: 5px;
+        border-radius: 4px;
+        padding: 0px;
+        text-align: center;
+        background-color: #0a66c2;
     }
     .qq {
         border-radius: 24px;
@@ -146,15 +150,14 @@ text-align: center;
     .main{
         gap: 2px;
         display: block;
+        justify-content: space-between;
     }
     .br{
         display: none;
     }
     p{
-        text-align: center;
-        margin-left: 20%;
-        margin-right: 0px;
         font-size: 10px;
+        display: inline;
     }
 
 }
@@ -168,8 +171,9 @@ text-align: center;
     }
 
     h1 {
-        /* text-align: center; */
-        justify-content: center;
+        text-align: center;
+        font-weight: 600;
+        line-height: 1.25;
     }
 
     .second {
